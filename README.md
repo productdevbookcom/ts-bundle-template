@@ -7,8 +7,12 @@ This is a template for creating a Typescript bundle. It is based on the [Typescr
 - [x] [Typescript](https://www.typescriptlang.org/)
 - [x] [Tsup](https://github.com/egoist/tsup)
 - [x] [ESLint](https://eslint.org/) with [Antfu's ESLint Config](https://github.com/antfu/eslint-config)
-- [x] [Bumpp](https://github.com/antfu/bumpp)
+- [x] [Bumpp](https://github.com/antfu/bumpp) github changelog generator
 - [x] [Vitest](https://vitest.dev/)
+- [x] [Pnpm](https://pnpm.io/)
+- [x] [GitHub Actions]()
+- [x] [NPM Local Registry]()
+- [x] [Renovate]()
 
 
 ## Usage
@@ -21,6 +25,14 @@ This is a template for creating a Typescript bundle. It is based on the [Typescr
 6. Run `pnpm lint` to lint the code. (You can also run `pnpm lint:fix` to fix the linting errors.)
 7. Run `pnpm test` to run the tests. (You can also run `pnpm test:watch` to run the tests in watch mode.)
 8. Run `pnpm release` to bump the version. Terminal will ask you to select the version type. And then it will automatically commit and push the changes. GitHub Actions will automatically publish git tags. NPM local registry will automatically publish the package.
+
+## Configuration
+
+### Github Secrets
+
+[Github Token](https://github.com/settings/tokens) is required github changelog generator. You can create a token.  Select the `repo` scope. Then add the token to the repository secrets. 
+
+`REPOCHANGELOG_TOKEN` - add the token to the repository secrets.
 
 ## License
 
