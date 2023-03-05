@@ -34,6 +34,10 @@ This is a template for creating a Typescript bundle. It is based on the [Typescr
 
 `REPOCHANGELOG_TOKEN` - add the token to the repository secrets.
 
+### Renovate
+
+[Setup Github App](https://github.com/apps/renovate) for Renovate.
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
