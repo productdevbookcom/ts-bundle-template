@@ -16,8 +16,5 @@ export default defineConfig({
     include: [
       './test/**',
     ],
-    testTimeout: 90000,
-    maxConcurrency: 1,
-    threads: false,
   },
 })
