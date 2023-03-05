@@ -1,0 +1,46 @@
+{
+  "name": "ts-bundle-template",
+  "version": "1.0.0",
+  "description": "add description",
+  "keywords": [
+    "add keywords"
+  ],
+  "author": "add author",
+  "engines": {
+    "node": ">=16"
+  },
+  "packageManager": "pnpm@7.28.0",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js"
+    }
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup --dts",
+    "dev": "tsup --watch",
+    "prepublishOnly": "pnpm run build",
+    "release": "bumpp --commit --push --tag && pnpm publish",
+    "lint": "eslint --ext .ts,.tsx,.js,.jsx .",
+    "lint:fix": "eslint --ext .ts,.tsx,.js,.jsx . --fix",
+    "test": "vitest",
+    "test:watch": "vitest --watch"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.36.0",
+    "bumpp": "^9.0.0",
+    "eslint": "^8.35.0",
+    "tsup": "^6.6.3",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.4",
+    "vitest": "^0.29.2"
+  }
+}
