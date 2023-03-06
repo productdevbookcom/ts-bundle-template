@@ -1,5 +1,8 @@
 # Typescript Bundle Template
 
+![Typescript Bundle Template](https://github.com/productdevbookcom/assets/blob/main/ts-bundle-template.jpg?raw=true)
+
+
 This is a template for creating a Typescript bundle. It is based on the [Typescript](https://www.typescriptlang.org/) compiler with the [Tsup](https://github.com/egoist/tsup) bundler.
 
 ## Features
