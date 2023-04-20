@@ -45,14 +45,14 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@antfu/eslint-config": "^0.38.0",
-    "@vitest/coverage-c8": "^0.29.8",
+    "@antfu/eslint-config": "^0.38.5",
+    "@vitest/coverage-c8": "^0.30.1",
     "bumpp": "^9.1.0",
-    "eslint": "^8.37.0",
+    "eslint": "^8.38.0",
     "tsup": "^6.7.0",
-    "typescript": "^5.0.2",
-    "vite": "^4.2.1",
-    "vitest": "^0.29.8"
+    "typescript": "^5.0.4",
+    "vite": "^4.3.1",
+    "vitest": "^0.30.1"
   },
   "publishConfig": {
     "access": "public"
