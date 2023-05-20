@@ -35,6 +35,10 @@ This is a template for creating a Typescript bundle. It is based on the [Typescr
 
 [Setup Github App](https://github.com/apps/renovate) for Renovate.
 
+### TS Config Base 
+
+(tsconfig.json)[https://github.com/tsconfig/bases/tree/main/bases] is used as the base config for the Typescript compiler.
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
