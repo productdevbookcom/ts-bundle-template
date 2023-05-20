@@ -39,6 +39,15 @@ This is a template for creating a Typescript bundle. It is based on the [Typescr
 
 (tsconfig.json)[https://github.com/tsconfig/bases/tree/main/bases] is used as the base config for the Typescript compiler.
 
+## Sponsors
+
+<p align="center">
+  <a href="https://cdn.jsdelivr.net/gh/oku-ui/static/sponsors/sponsors.svg">
+    <img alt="sponsors" src='https://cdn.jsdelivr.net/gh/oku-ui/static/sponsors/sponsors.svg'/>
+  </a>
+</p>
+
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
