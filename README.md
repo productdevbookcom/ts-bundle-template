@@ -31,12 +31,6 @@ This is a template for creating a Typescript bundle. It is based on the [Typescr
 
 ## Configuration
 
-### Github Secrets
-
-[Github Token](https://github.com/settings/tokens) is required github changelog generator. You can create a token.  Select the `repo` scope. Then add the token to the repository secrets. 
-
-`REPOCHANGELOG_TOKEN` - add the token to the repository secrets.
-
 ### Renovate
 
 [Setup Github App](https://github.com/apps/renovate) for Renovate.
