@@ -1,49 +1,47 @@
 {
   "name": "ts-bundle-template",
-  "version": "1.0.0",
+  "version": "0.0.0",
+  "packageManager": "pnpm@8.0.0",
   "description": "add description",
-  "keywords": [
-    "add keywords"
-  ],
-  "homepage": "https://github.com/productdevbookcom/ts-bundle-template",
-  "bugs": "https://github.com/productdevbookcom/ts-bundle-template/issues",
   "author": "add author",
+  "license": "MIT",
+  "funding": "https://github.com/sponsors/productdevbook",
+  "homepage": "https://github.com/productdevbookcom/ts-bundle-template",
   "repository": {
     "type": "git",
     "url": "https://github.com/productdevbookcom/ts-bundle-template.git"
   },
-  "funding": "https://github.com/sponsors/productdevbook",
-  "engines": {
-    "node": ">=16",
-    "pnpm": ">=8"
-  },
-  "packageManager": "pnpm@8.0.0",
+  "bugs": "https://github.com/productdevbookcom/ts-bundle-template/issues",
+  "keywords": [
+    "add keywords"
+  ],
   "exports": {
     ".": {
-      "import": "./dist/index.mjs",
       "types": "./dist/index.d.ts",
-      "require": "./dist/index.js"
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
     }
   },
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "files": [
-    "dist",
-    "LICENSE",
-    "README.md"
+    "dist"
   ],
+  "engines": {
+    "node": ">=16",
+    "pnpm": ">=8"
+  },
   "scripts": {
-    "build": "tsup --dts",
+    "build": "tsup",
     "dev": "tsup --watch",
     "prepublishOnly": "pnpm run build",
     "release": "pnpm build && bumpp --commit --push --tag && pnpm publish",
-    "lint": "eslint --ext .ts,.tsx,.js,.jsx .",
-    "lint:fix": "eslint --ext .ts,.tsx,.js,.jsx . --fix",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "test": "vitest",
     "test:watch": "vitest --watch"
   },
-  "license": "MIT",
   "devDependencies": {
     "@antfu/eslint-config": "^0.38.6",
     "@vitest/coverage-c8": "^0.31.0",
