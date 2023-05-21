@@ -29,6 +29,12 @@ importers:
         specifier: ^0.31.0
         version: 0.31.0
 
+  playground:
+    devDependencies:
+      ts-bundle-template:
+        specifier: workspace:^
+        version: link:..
+
 packages:
 
   /@ampproject/remapping@2.2.1:
