@@ -23,22 +23,20 @@
       ]
     },
     {
-      "matchFiles": [
-        "package.json"
-      ],
-      "matchUpdateTypes": [
-        "patch",
-        "minor",
-        "major"
-      ],
+      "groupName": "playground",
+      "commitMessageTopic": "playground",
+      "matchPaths": ["playground/**"],
+      "matchUpdateTypes": ["major", "minor", "patch"],
+      "matchDatasources": ["npm"]
+    },
+    {
       "groupName": "root",
-      "groupSlug": "shared-root",
-      "labels": [
-        "dependencies"
-      ],
-      "addLabels": [
-        "dependencies"
-      ]
+      "matchUpdateTypes": ["patch", "minor", "major"],
+      "ignorePaths": ["**/playground/**"],
+      "matchDatasources": ["npm", "github-actions"],
+      "labels": ["dependencies"],
+      "addLabels": ["dependencies"],
+      "matchFiles": ["package.json"]
     }
   ]
 }
