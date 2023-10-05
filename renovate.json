@@ -25,18 +25,41 @@
     {
       "groupName": "playground",
       "commitMessageTopic": "playground",
-      "matchPaths": ["playground/**"],
-      "matchUpdateTypes": ["major", "minor", "patch"],
-      "matchDatasources": ["npm"]
+      "matchPaths": [
+        "playground/**"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch"
+      ],
+      "matchDatasources": [
+        "npm"
+      ]
     },
     {
       "groupName": "root",
-      "matchUpdateTypes": ["patch", "minor", "major"],
-      "ignorePaths": ["**/playground/**"],
-      "matchDatasources": ["npm", "github-actions"],
-      "labels": ["dependencies"],
-      "addLabels": ["dependencies"],
-      "matchFiles": ["package.json"]
+      "matchUpdateTypes": [
+        "patch",
+        "minor",
+        "major"
+      ],
+      "ignorePaths": [
+        "**/playground/**"
+      ],
+      "matchDatasources": [
+        "npm",
+        "github-actions"
+      ],
+      "labels": [
+        "dependencies"
+      ],
+      "addLabels": [
+        "dependencies"
+      ],
+      "matchFiles": [
+        "package.json"
+      ]
     }
   ]
 }
