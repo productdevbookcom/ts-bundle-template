@@ -1,4 +1,5 @@
-export function handler(event: any, context: any, callback: any) {
+export function handler(_event: any, _context: any, callback: any) {
+  // eslint-disable-next-line no-console
   console.log('Hello World')
   callback(null, {
     statusCode: 200,
