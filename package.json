@@ -40,8 +40,7 @@
     "lint:fix": "eslint . --fix",
     "test": "vitest",
     "test:watch": "vitest --watch",
-    "coverage": "vitest run --coverage",
-    "postinstall": "npx simple-git-hooks"
+    "coverage": "vitest run --coverage"
   },
   "devDependencies": {
     "@antfu/eslint-config": "1.1.1",
