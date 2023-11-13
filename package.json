@@ -2,7 +2,7 @@
   "name": "ts-bundle-template",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@8.8.0",
+  "packageManager": "pnpm@8.10.0",
   "description": "add description",
   "author": "add author",
   "license": "MIT",
@@ -29,15 +29,16 @@
     "dist"
   ],
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
     "prepublishOnly": "pnpm run build",
     "release": "pnpm build && bumpp --commit --push --tag && pnpm publish",
-    "lint": "eslint .",
+    "lint": "eslint . && pnpm typecheck",
     "lint:fix": "eslint . --fix",
+    "typecheck": "tsc --noEmit",
     "test": "vitest",
     "test:watch": "vitest --watch",
     "coverage": "vitest run --coverage"
