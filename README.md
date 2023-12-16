@@ -2,7 +2,6 @@
 
 ![Typescript Bundle Template](https://github.com/productdevbookcom/assets/blob/main/ts-bundle-template.jpg?raw=true)
 
-
 This is a template for creating a Typescript bundle. It is based on the [Typescript](https://www.typescriptlang.org/) compiler with the [Tsup](https://github.com/egoist/tsup) bundler.
 
 ## Features
@@ -16,7 +15,6 @@ This is a template for creating a Typescript bundle. It is based on the [Typescr
 - [x] [GitHub Actions]()
 - [x] [NPM Local Registry]()
 - [x] [Renovate]()
-
 
 ## Usage
 
@@ -35,7 +33,7 @@ This is a template for creating a Typescript bundle. It is based on the [Typescr
 
 [Setup Github App](https://github.com/apps/renovate) for Renovate.
 
-### TS Config Base 
+### TS Config Base
 
 (tsconfig.json)[https://github.com/tsconfig/bases/tree/main/bases] is used as the base config for the Typescript compiler.
 
@@ -46,7 +44,6 @@ This is a template for creating a Typescript bundle. It is based on the [Typescr
     <img alt="sponsors" src='https://cdn.jsdelivr.net/gh/oku-ui/static/sponsors/sponsors.svg'/>
   </a>
 </p>
-
 
 ## License
 
