@@ -45,14 +45,14 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "2.4.6",
-    "@vitest/coverage-v8": "^0.34.6",
+    "@vitest/coverage-v8": "^1.0.4",
     "bumpp": "^9.2.1",
     "eslint": "^8.56.0",
     "lint-staged": "^15.2.0",
     "simple-git-hooks": "^2.9.0",
     "tsup": "^8.0.1",
     "typescript": "^5.3.3",
-    "vitest": "^0.34.6"
+    "vitest": "^1.0.4"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"
