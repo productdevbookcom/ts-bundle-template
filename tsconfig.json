@@ -1,19 +1,26 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "Node 18",
-  "_version": "2.0.0",
+  "display": "Node 22",
   "compilerOptions": {
     "target": "es2022",
     "lib": [
       "es2023",
       "DOM"
     ],
-    "module": "ES2022",
-    "moduleResolution": "node",
+    "moduleDetection": "force",
+    "module": "NodeNext",
     "resolveJsonModule": true,
+    "allowImportingTsExtensions": true,
+    "allowJs": true,
     "strict": true,
+
+    "noImplicitOverride": true,
+    "noUncheckedIndexedAccess": true,
+    "noEmit": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
     "skipLibCheck": true
   }
 }
